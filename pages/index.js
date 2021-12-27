@@ -49,10 +49,10 @@ export default function Home() {
                 <meta name="keywords" content="Onboardly | Homepage" />
             </Head>
 
-            <div class="box">
+            <div className="box">
                 <Navbar />
                 <BreadCrumb />
-                <div class="bg-pinkbg px-4 md:px-6 lg:px- py-16 h-screen">
+                <div className="bg-pinkbg px-4 md:px-6 lg:px-16 py-16 h-auto md:h-screen">
                     <h1 className="text-pink text-xl md:text-3xl font-bold mb-4">Loan application</h1>
                     { getStep() }
                 </div>

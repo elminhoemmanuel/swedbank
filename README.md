@@ -15,7 +15,7 @@
 
 ## Overview
 
-- The live demo of this project can be found deployed live on vercel [here](https://onboardly.vercel.app/) .  
+- The live demo of this project can be found deployed live  [here](https://swedbank-emmanuel.netlify.app) .  
 
 
 - My experience building this web application was enlightening. It afforded me the opportunity to flex my muscles with some technologies I use frequently React.js, Next.js, Tailwindcss, Redux, etc.

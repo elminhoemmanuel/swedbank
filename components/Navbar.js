@@ -37,7 +37,7 @@ const Navbar = ({ activePage }) => {
                 <div className='flex lg:hidden flex-col font-bold'>
                     {
                         menu.map(item => (
-                            <div onClick={handleClickMobile}>
+                            <div key={item} onClick={handleClickMobile}>
                                 <Link className='block w-full' href="/">
                                     <a className='border-t border-b border-gray-300 flex items-center justify-between w-full px-3 py-4 text-black hover:text-pink'>
                                         <p>{item}</p>
@@ -109,7 +109,7 @@ const Navbar = ({ activePage }) => {
                     </button>
                     {
                         menu.map(item => (
-                            <button className="border-r border-gray-200 py-4 px-10 outline-none block text-black hover:text-pink">
+                            <button key={item} className="border-r border-gray-200 py-4 px-10 outline-none block text-black hover:text-pink">
                                 {item}
                             </button>
                         ))

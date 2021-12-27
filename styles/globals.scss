@@ -8,6 +8,9 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+body{
+
+}
 
 // for Navigation bar
 .with-border-gradient {
@@ -34,13 +37,13 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/bg.jpg");
 }
 
-.box{
-    width: 100% !important;
+.container{
+    max-width: 100% !important;
 }
 
-@media screen and (min-width:1536px){
-    .box{
-        width:1536px !important;
-    }
-}
+// @media screen and (min-width:1536px){
+//     .box{
+//         width:1536px !important;
+//     }
+// }
 
