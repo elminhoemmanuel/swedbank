@@ -49,7 +49,7 @@ export default function Home() {
                 <meta name="keywords" content="Onboardly | Homepage" />
             </Head>
 
-            <div className="box">
+            <div className="2xl:max-w-screen-2xl 2xl:mx-auto">
                 <Navbar />
                 <BreadCrumb />
                 <div className="bg-pinkbg px-4 md:px-6 lg:px-16 py-16 h-auto md:h-screen">
