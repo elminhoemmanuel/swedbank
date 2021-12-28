@@ -1,7 +1,10 @@
-import { INCR_STEP, DECR_STEP, RESET } from "../types"
+import { INCR_STEP, DECR_STEP, RESET, SET_INCOME, SET_AMOUNT } from "../types"
 
 const initialState = {
-    step: 3,
+    step: 0,
+    income:0,
+    amount:0,
+
 };
 
 export const formReducer = (state = initialState, action) => {
@@ -21,6 +24,16 @@ export const formReducer = (state = initialState, action) => {
             return {
                 ...state,
                 step: 0
+            };
+        case SET_INCOME:
+            return {
+                ...state,
+                income:action.payload,
+            };
+        case SET_AMOUNT:
+            return {
+                ...state,
+                amount:action.payload,
             };
         default:
             return state;

@@ -27,7 +27,7 @@ const Stepper = () => {
                     
                 }
                 <div className="hidden md:block mt-2">
-                    <p className="text-sm">Duration</p>
+                    <p className="text-sm">Amount</p>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center p-3">
@@ -38,7 +38,7 @@ const Stepper = () => {
                     
                 }
                 <div className="hidden md:block mt-2">
-                    <p className="text-sm">Personal Data</p>
+                    <p className="text-sm">Duration</p>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center p-3">

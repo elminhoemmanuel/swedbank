@@ -53,7 +53,7 @@ export default function Home() {
                 <Navbar />
                 <BreadCrumb />
                 <div class="bg-pinkbg px-4 md:px-6 lg:px- py-16 h-screen">
-                    <h1 className="text-pink text-xl md:text-3xl font-bold mb-4">Small Loan application</h1>
+                    <h1 className="text-pink text-xl md:text-3xl font-bold mb-4">Loan application</h1>
                     { getStep() }
                 </div>
             </div>
