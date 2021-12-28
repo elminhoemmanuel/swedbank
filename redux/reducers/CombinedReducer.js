@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { testReducer } from './test';
+import { formReducer } from './form';
 import {  persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
@@ -8,11 +8,11 @@ import storage from 'redux-persist/lib/storage'
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist:['test']
+  whitelist:['form']
 }
 
 const rootReducer = combineReducers({
-    test: testReducer,
+    form: formReducer,
 });
 
 export default persistReducer(persistConfig, rootReducer);
